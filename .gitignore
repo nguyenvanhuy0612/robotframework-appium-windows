@@ -2,28 +2,63 @@
 .idea/
 .vscode/
 
-# OS files
-*.DS_Store
+# OS-specific files
+.DS_Store
 Thumbs.db
+desktop.ini
 
-# Python caches
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Logs and environment files
+# Bytecode and C extensions
+*.so
+*.dll
+*.dylib
+
+# Logs and test results
 log*/
 result*/
 *.log
-*.env
+*.out
+*.xml
+*.tmp
 
-# Virtual environment
-venv/
+# Env/Config files
+.env
+*.env
 .env/
 
-# Jupyter Notebook checkpoints
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Build artifacts for PyPI
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Robot Framework output
+output.xml
+log.html
+report.html
+*.robot.xml
+*.tsv
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Compiled C extensions
-*.so
+# macOS symbolic link files
+*.localized
+
+# Windows generated folders
+__MACOSX/
+
+# VSCode settings backup
+.settings/
